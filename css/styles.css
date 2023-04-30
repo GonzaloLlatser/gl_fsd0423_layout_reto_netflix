@@ -1,17 +1,18 @@
 body{
-    margin: 1em;
+    margin: 2em;
+    background-color: rgb(0, 0, 0);
 }
 
 .contenedor{
     height: 100%;
     width: 100%;
-    background-color: rgb(237, 103, 103);
+    background-color: rgb(0, 0, 0);
 }
 
 .partesuperior{
     height: 5em;
     width: 100%;
-    background-color: rgb(154, 230, 162);
+    /* background-color: rgb(154, 230, 162); */
     display: flex;
     justify-content: space-between;
    
@@ -20,7 +21,7 @@ body{
 .superiorizq{
     height: 5em;
     width: 40em;
-    background-color: rgb(116, 237, 237);
+    /* background-color: rgb(116, 237, 237); */
     display: flex;
     
 }
@@ -29,47 +30,48 @@ body{
     height: 6em;
     width: 8em;
     background-image: url(/img/netflixlogo.png);background-repeat: no-repeat; background-size: 6em;
-   
+    margin-top: 0.3em;
 }
 
 .inicio, .series, .peliculas, .novedades, .lista, .explora{
     font-size: 0.9em; font-style: normal;
-    /* margin-top: 1.3em; */
+    color: rgb(246, 239, 239);
+    margin-top: 0.5em;
 } 
 
 .inicio, .series{
     height: 2em;
     width: 3em;
-    background-color: rgb(145, 145, 150);
+    /* background-color: rgb(145, 145, 150); */
 }
 
 .peliculas{
     height: 2em;
     width: 5em;
-    background-color: rgb(27, 27, 184);
+    /* background-color: rgb(27, 27, 184); */
 }
 
 .novedades{
     height: 2em;
     width: 10em;
-    background-color: rgb(151, 151, 158);
+    /* background-color: rgb(151, 151, 158); */
 }
 .lista{
     height: 2em;
     width: 5em;
-    background-color: rgb(204, 17, 198);
+    /* background-color: rgb(204, 17, 198); */
 }
 
 .explora{
     height: 2em;
     width: 10em;
-    background-color: rgb(72, 172, 33);
+    /* background-color: rgb(72, 172, 33); */
 }
 
 .superiorder{
     height: 4em;
     width: 40em;
-    background-color: rgb(127, 57, 219);
+    /* background-color: rgb(127, 57, 219); */
     display: flex;
     justify-content: end;
 } 
@@ -77,101 +79,213 @@ body{
 .iconolupa, .iconocampana, .iconousuario{
     height: 3em;
     width:3em;
-    margin-top: 1em;
+    margin-top: 0.5em;
 }
 
 .iconolupa{ 
-    background-color: azure;
+    background-image: url(/img/lupaicono.png);background-size: 2.3em; background-repeat: no-repeat;
 }
 .iconocampana{
-    background-color: blueviolet;
+    background-image: url(/img/campanaicono.png);background-size: 2.3em; background-repeat: no-repeat;
 }
 .iconousuario{
-    background-color: chartreuse;
+    background-image: url(/img/roboticono.png);background-size: 2.6em; background-repeat: no-repeat;
+
 } 
 
 .opciones1{
     height: 11em;
     width: 100%;
-    background-color: brown;
+    /* background-color: brown; */
 }
 
 .nuevos{
     height: 2em;
     width: 12em;
-    background-color: rgb(53, 28, 112);    
+    /* background-color: rgb(53, 28, 112);     */
 }
 
 .opcionesnuevos{
     height: 7em;
     width: 100%;
-    background-color: rgb(61, 205, 48);
+    /* background-color: rgb(61, 205, 48); */
     display: flex;
     justify-content: space-between;
 }
 
 .opcion1, .opcion2, .opcion3, .opcion4, .opcion5, .opcion6{
     height: 7em;
-    width: 12em;
-    background-color: rgb(39, 170, 143);
+    width: 13em;
+    /* background-color: rgb(39, 170, 143); */
     border: 0.1em solid black;
-    justify-content: space-between;
+    
 }
 
 .opciones2{
     height: 11em;
     width: 100%;
-    background-color: rgb(165, 161, 42);
+    /* background-color: rgb(165, 161, 42); */
     
 }
 
 .opcionesrato{
     height: 7em;
     width: 100%;
-    background-color: rgb(154, 125, 222);
+    /* background-color: rgb(154, 125, 222); */
     display: flex;
     justify-content: space-between;
-    
+}
+
+.pasarelrato, .nuevos{
+    font-size: 1.2em; color: rgb(246, 239, 239);
 }
 
 .opcion7, .opcion8, .opcion9, .opcion10, .opcion11, .opcion12{
     height: 7em;
-    width: 12em;
-    background-color: rgb(235, 50, 238);
+    width: 13em;
+    /* background-color: rgb(235, 50, 238); */
     border: 0.1em solid black;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .opciones3{
     height: 11em;
     width: 100%;
-    background-color: rgb(109, 199, 124);
+    /* background-color: rgb(109, 199, 124); */
 }
 
 .tendencias{
     height: 2em;
     width: 12em;
-    background-color: rgb(163, 143, 211);
+    /* background-color: rgb(163, 143, 211); */
+    font-size: 1.2em; color: rgb(246, 239, 239);
 }
 
 .opcionestendencia{
-        height: 7em;
-        width: 100%;
-        background-color: rgb(50, 41, 72);
-        display: flex;
-        justify-content: space-between;      
+    height: 7em;
+    width: 100%;
+    /* background-color: rgb(50, 41, 72); */
+    display: flex;
+    justify-content: space-between;      
 }
 
 .opcion13, .opcion14, .opcion15, .opcion16, .opcion17, .opcion18{
     height: 7em;
-    width: 12em;
-    background-color: rgb(235, 50, 238);
+    width: 13em;
+    /* background-color: rgb(235, 50, 238); */
     border: 0.1em solid black;
     justify-content: space-between;
 }
 
 .partefinal{
-    height: 5em;
+    height: 3em;
     width: 100%;
-    background-color: blue;
+    /* background-color: blue; */
+}
+
+.opcion1{
+    background-image: url(/img/imagenopcion1.png);
+    background-repeat: no-repeat;
+    background-size: 12em; background-position: center;
+}
+
+.opcion2{
+    background-image: url(/img/imagenopcion2.png);
+    background-repeat: no-repeat;
+    background-size: 13em; background-position: center;
+}
+
+.opcion3{
+    background-image: url(/img/imagenopcion3.png);
+    background-repeat: no-repeat;
+    background-size: 13em; background-position: center;
+}
+
+.opcion4{
+    background-image: url(/img/imagenopcion4.png);
+    background-repeat: no-repeat;
+    background-size: 13em; background-position: center;
+}
+
+.opcion5{
+    background-image: url(/img/imagenopcion5.png);
+    background-repeat: no-repeat;
+    background-size: 13em; background-position: center;
+}
+
+.opcion6{
+    background-image: url(/img/imagenopcion6.png);
+    background-repeat: no-repeat;
+    background-size: 13em; background-position: center;
+}
+
+.opcion7{
+    background-image: url(/img/imagenopcion7.png);
+    background-repeat: no-repeat;
+    background-size: 13em; background-position: center;
+}
+.opcion8{
+    background-image: url(/img/imagenopcion8.png);
+    background-repeat: no-repeat;
+    background-size: 13em; background-position: center;
+}
+
+.opcion9{
+    background-image: url(/img/imagenopcion9.png);
+    background-repeat: no-repeat;
+    background-size: 13em; background-position: center;
+}
+
+.opcion10{
+    background-image: url(/img/imagenopcion10.png);
+    background-repeat: no-repeat;
+    background-size: 13em; background-position: center;
+}
+
+.opcion11{
+    background-image: url(/img/imagenopcion11.png);
+    background-repeat: no-repeat;
+    background-size: 13em; background-position: center;
+}
+
+.opcion12{
+    background-image: url(/img/imagenopcion12.png);
+    background-repeat: no-repeat;
+    background-size: 13em; background-position: center;
+}
+
+.opcion13{
+    background-image: url(/img/imagenopcion13.png);
+    background-repeat: no-repeat;
+    background-size: 13em; background-position: center;
+}
+
+.opcion14{
+    background-image: url(/img/imagenopcion14.png);
+    background-repeat: no-repeat;
+    background-size: 13em; background-position: center;
+}
+
+.opcion15{
+    background-image: url(/img/imagenopcion15.png);
+    background-repeat: no-repeat;
+    background-size: 13em; background-position: center;
+}
+
+.opcion16{
+    background-image: url(/img/imagenopcion16.png);
+    background-repeat: no-repeat;
+    background-size: 13em; background-position: center;
+}
+
+.opcion17{
+    background-image: url(/img/imagenopcion17.png);
+    background-repeat: no-repeat;
+    background-size: 13em; background-position: center;
+}
+
+.opcion18{
+    background-image: url(/img/imagenopcion18.png);
+    background-repeat: no-repeat;
+    background-size: 13em; background-position: center;
 }
